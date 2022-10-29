@@ -60,10 +60,4 @@ export class Product {
   }
 
   // @BeforeUpdate()
-  // checkSlugUpdate() {
-  //   if (!this.slug) {
-  //     this.slug = this.slug;
-  //   }
-  //   this.slug.toLowerCase().replaceAll(' ', '_').replaceAll("'", ' ');
-  // }
 }
