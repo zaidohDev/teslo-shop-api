@@ -2,7 +2,6 @@ GET http://localhost:3000/api/products
 
 ###
 GET http://localhost:3000/api/products/f0373f59-bc07-4a8a-93a8-a26b6fe57027
-
 ###
 POST http://localhost:3000/api/products  HTTP/1.1
 content-Type: application/json
@@ -13,3 +12,7 @@ content-Type: application/json
     "slug": "cropped_blue6",
     "gender": "kid"
 }
+
+###
+DELETE  http://localhost:3000/api/products/f0373f59-bc07-4a8a-93a8-a26b6fe57027
+###
