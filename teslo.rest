@@ -1,16 +1,26 @@
 GET http://localhost:3000/api/products 
 
 ###
-GET http://localhost:3000/api/products/f0373f59-bc07-4a8a-93a8-a26b6fe57027
+GET http://localhost:3000/api/products/cropped_blue2
 ###
 POST http://localhost:3000/api/products  HTTP/1.1
 content-Type: application/json
 
 {
-    "title":  "cropped blue6",
+    "title":  "cropped blue2",
     "sizes":  ["SM", "M", "P"],
     "slug": "cropped_blue6",
     "gender": "kid"
+}
+
+###
+PATCH  http://localhost:3000/api/products/24889757-8f62-4fde-965b-645355cc59ad  HTTP/1.1
+content-Type: application/json
+
+{
+    "sizes":  ["SM", "P"],
+    "slug": "cropped blue65",
+    "tags": ["blusa"]
 }
 
 ###
