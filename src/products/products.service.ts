@@ -12,7 +12,6 @@ import { UpdateProductDto } from './dto/update-product.dto';
 import { Product } from './entities/product.entity';
 import { PaginationDto } from 'src/common/dto/pagination.dto';
 import { isUUID } from 'class-validator';
-import { title } from 'process';
 @Injectable()
 export class ProductsService {
   private readonly logger = new Logger('ProductsService');
